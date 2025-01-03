@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  user-select: none;
+  color: #fff !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#container {
+  background-color: #151419;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.leftbar {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 73px;
+  height: 100vh;
+  border: solid 1px #1e1e1e;
+  position: relative;
+}
+
+.topbar {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 85px;
+  border: solid 1px #1e1e1e;
+  background-color: #151419;
+  position: absolute;
+}
+
+#container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  border-radius: 10px;
+  border: solid 1px #222028;
+  background-color: #1b1a20;
+  height: 50px;
+  width: 55px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: .5s;
+  background-color: #222028;
+}
+
+.btn:active {
+  background-color: #292630;
+}
+
+.code {
+  margin: 100px 0 0 7.5px;
+  background-image: url("/assets/code.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.file {
+  margin: 10px 0 0 7.5px;
+  background-image: url("/assets/file.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.execute {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  margin: 7.5px;
+  background-image: url("/assets/execute.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settings {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 7.5px;
+  background-image: url("/assets/settings.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.inject {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 120px !important;
+  margin: 20px;
+  background-image: url("/assets/inject.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.code-editor {
+  position: absolute;
+  width: 45rem;
+  height: 28rem;
+  background-color: white;
+  margin: 100px 0 0 90px;
+  background-color: #1b1a20;
+  border: 2px solid #222128;
+}
